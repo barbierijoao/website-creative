@@ -97,6 +97,7 @@ main {
   background-color: #292929;
   background-image: url(../assets/banner-1.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -179,24 +180,25 @@ header .header .menu ul li a:hover {
   justify-content: center;
   text-align: center;
   height: 100%;
+  padding-top: 300px;
   color: var(--white);
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  padding-top: 180px;
 }
 .main .sliders .slide .slide-area h1 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 80px;
 }
 .main .sliders .slide .slide-area h1 span {
   color: var(--green-blue);
 }
 .main .sliders .slide .slide-area h2 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px 0px;
+  padding-bottom: 20px;
 }
 .main .sliders-pointers {
   width: 100%;
@@ -263,6 +265,7 @@ header .header .menu ul li a:hover {
 
 .section-aboutus {
   display: flex;
+  padding: 0px 20px;
   padding-top: 40px;
 }
 .section-aboutus .aboutus {
@@ -346,6 +349,7 @@ header .header .menu ul li a:hover {
 .section-projects .projects-photos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 40px 0px;
 }
 .section-projects .projects-photos .photos {
@@ -417,6 +421,7 @@ header .header .menu ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 120px;
 }
 .bg-team .team-container .section-team .sliders-team .team-area {
@@ -508,6 +513,7 @@ header .header .menu ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 170px;
 }
 
@@ -653,6 +659,8 @@ header .header .menu ul li a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 10px;
 }
 .section-facts .cards-facts .card-facts {
   display: flex;
@@ -846,7 +854,7 @@ footer {
 }
 footer .content-footer {
   max-width: 1440px;
-  width: 1440px;
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
   color: var(--white);
