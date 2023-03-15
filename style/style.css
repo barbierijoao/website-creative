@@ -807,6 +807,10 @@ header .header .menu ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s;
+}
+.bg-map .return-home a:hover {
+  opacity: 0.9;
 }
 .bg-map .return-home a i {
   font-size: 32px;
