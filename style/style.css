@@ -40,6 +40,8 @@ body .button {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 body .button:hover {
   background-color: #3f6462;
@@ -928,4 +930,8 @@ footer .content-footer .right-footer .box-sub a {
   font-size: 17px;
   font-weight: bold;
   color: var(--white);
+  transition: all 0.3s;
+}
+footer .content-footer .right-footer .box-sub a:hover {
+  background-color: #3f6462;
 }/*# sourceMappingURL=style.css.map */
