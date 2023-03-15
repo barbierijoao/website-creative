@@ -6,6 +6,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+*::-webkit-scrollbar {
+    width: 13px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--dark);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--green-blue);
+    border-radius: 5px;
+    border: 2px solid var(--dark);
 }
 
 :root {

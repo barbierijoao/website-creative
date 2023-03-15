@@ -5,6 +5,20 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 13px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--green-blue);
+  border-radius: 5px;
+  border: 2px solid var(--dark);
+}
+
 :root {
   --green-blue: #5D8F8C;
   --white:#fff;
