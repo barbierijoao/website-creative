@@ -738,22 +738,26 @@ header .header .menu ul li a:hover {
 .bg-contact .section-contact form .division-3 .labeluser input {
   position: relative;
   width: 685px;
+  height: 30px;
   background: none;
   border: none;
   border-bottom: 2px solid var(--dark);
   outline: none;
-  color: var(--white);
+  color: var(--dark);
   font-size: 17px;
+  font-weight: 600;
 }
 .bg-contact .section-contact form input {
   padding: 0px 10px;
   width: 1440px;
+  height: 30px;
   background: none;
   border: none;
   border-bottom: 2px solid var(--dark);
   outline: none;
-  color: #000000;
+  color: var(--dark);
   font-size: 17px;
+  font-weight: 600;
 }
 
 .bg-map {
