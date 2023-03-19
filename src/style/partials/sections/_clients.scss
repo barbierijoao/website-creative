@@ -1,0 +1,36 @@
+.section-clients {
+    padding-top: 40px;
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 220px;
+            height: auto;
+
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 17px;
+            font-weight: 400;
+
+            padding-bottom: 55px;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 38px;
+        }
+    }
+}

@@ -1,0 +1,231 @@
+/* ============= TAGS GLOBAIS DE ESTILOS ============= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.tw {
+    background-color: #50ABF1;
+}
+
+.lin {
+    background-color: #0077B7;
+}
+
+.fac {
+    background-color: #4664A5;
+}
+
+.goo {
+    background-color: #E94235;
+}
+
+.pin {
+    background-color: #E60023;
+}
+
+.button {
+    width: 250px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--green-blue);
+    border-radius: 20px;
+
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+
+    transition: all 0.3s;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3f6462;
+    }
+}
+
+.sliders-pointers {
+    width: 100%;
+    height: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 150px;
+
+    .pointer {
+        width: 15px;
+        height: 15px;
+
+        border: 2px solid var(--green-blue);
+        border-radius: 8px;
+
+        margin: 0px 5px;
+
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: var(--green-blue);
+    }
+}
+
+.mockup {
+    padding: 50px 0;
+
+    user-select: none;
+
+    .section-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .section-desc {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: #6D6D6D;
+    }
+
+    .section-body {
+        max-width: 1440px;
+        margin: auto;
+    }
+}
+
+.mockup.light {
+    .section-title {
+        color: #000;
+    }
+
+    .section-desc {
+        color: #6D6D6D;
+    }
+}
+
+.mockup.dark {
+    background-color: #000;
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.35);
+    
+
+    .section-title {
+        color: #fff;
+    }
+
+    .section-desc {
+        color: #999;
+    }
+
+    .section-body {
+        color: var(--white);
+    }
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #292929;
+
+    background-image: url(../assets/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 100px);
+
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.35);
+
+    overflow: hidden;
+
+    .sliders {
+        height: 100%;
+        width: 1000vw;
+
+        .slide {
+            width: 100vw;
+            height: 100%;
+
+            display: inline-block;
+
+            .slide-area {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                text-align: center;
+
+                height: 100%;
+
+                padding-top: 300px;
+
+                color: var(--white);
+                user-select: none;
+
+                h1 {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 80px;
+
+                    span {
+                        color: var(--green-blue);
+                    }
+                }
+
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 25px;
+                    margin: 20px 0px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .sliders-pointers {
+        width: 100%;
+        height: 20px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-top: 150px;
+
+        .pointer {
+            width: 15px;
+            height: 15px;
+
+            border: 2px solid var(--green-blue);
+            border-radius: 8px;
+
+            margin: 0px 5px;
+
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: var(--green-blue);
+        }
+    }
+}
+
+/* ============= FINAL DAS TAGS GLOBAIS DE ESTILOS ============= */
